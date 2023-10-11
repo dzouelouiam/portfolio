@@ -38,11 +38,11 @@ const About = () => {
 
     <motion.p
     variants={fadeIn("","",0.1,1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      hiiiiiiii
+      Je suis un développeur de logiciels qualifié avec une expérience approfondie en JavaScript et une expertise avérée dans des frameworks tels que React et Node.js. Ma capacité d'apprentissage rapide me permet de m'adapter rapidement aux nouveaux défis. Je valorise la collaboration étroite avec les clients pour concevoir des solutions efficaces, évolutives, et conviviales qui résolvent des problèmes concrets du monde réel. Ensemble, donnons vie à vos idées !
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
-      {services.map((service, index) => (
+    {services.map((service, index) => (
         <ServiceCard key={service.title} index={index}
         {...service}/>
         ))}

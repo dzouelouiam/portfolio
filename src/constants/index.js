@@ -1,29 +1,33 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  meta,
+  starbucks,
+  tesla,
+  emsi,
+  shopify,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+  abdel,
+  datatrend,
+  sys_rec,
+} from "../assets";
   
   export const navLinks = [
     {
@@ -42,10 +46,6 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
       title: "Frontend Developer",
       icon: mobile,
     },
@@ -57,11 +57,11 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
+      name: "HTML",
       icon: html,
     },
     {
-      name: "CSS 3",
+      name: "CSS",
       icon: css,
     },
     {
@@ -69,16 +69,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -91,10 +83,6 @@ import {
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
@@ -112,55 +100,50 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "MERN stack Gestion de stock",
+      company_name: "DATATREND",
+      icon: datatrend,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Juin 2023 - Août 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Création et mise en œuvre d'une application de suivi de stock.",
+        "Une application web pour le gestionnaire de stock pour le suivi des entrées et des sorties de stock.",
+        "Conception et réalisation des statistiques globale des entées et des sortie.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Application web de gestion de commandes et de factures",
+      company_name: "ON BRAND BEAUTY",
+      icon: abdel,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Juillet 2022 - Août 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conception et réalisation d'une application de suivi des achats des clients.",
+        "Une application web pour les clients pour le suivi de leurs commandes.",
+        "Une application web pour les administrateurs permettant d’exploiter les différentes fonctionnalités du système d’achat.",
+      ],
+    },
+    {
+      title: "Système de recommandation de films",
+      company_name: "EMSI",
+      icon: sys_rec,
+      iconBg: "#E6DEDD",
+      date: "février 2023 - Juin 2023",
+      points: [
+        "Conception et réalisation d'une application de recommandation des films.",
+        "Conception et réalisation d'une application de suivi des chats par utilisateur.",
+        "Réalisation de filtrage par contenu des films.",
+      ],
+    },
+    {
+      title: "système de gestion d'absence par la reconnaissance faciale",
+      company_name: "EMSI",
+      icon: emsi,
+      iconBg: "#E6DEDD",
+      date: "février 2023 - Juin 2023",
+      points: [
+        "Conception et réalisation d'une application de gestion d'absence par reconnaissance faciale.",
+        "Conception et réalisation d'une application de suivi des absences par étudiant.",
       ],
     },
   ];

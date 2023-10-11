@@ -29,6 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import emsi from "./company/IMG_7409.png";
+import abdel from "./company/IMG_7413.png";
+import datatrend from "./company/IMG_7415.png";
+import sys_rec from "./company/IMG_7414.png";
 
 export {
   logo,
@@ -38,7 +42,10 @@ export {
   web,
   github,
   menu,
+  datatrend,
+  sys_rec,
   close,
+  abdel,
   css,
   docker,
   figma,
@@ -59,4 +66,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  emsi,
 };
